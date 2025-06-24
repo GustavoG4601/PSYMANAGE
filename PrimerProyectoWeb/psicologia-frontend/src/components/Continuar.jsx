@@ -78,8 +78,8 @@ export default function Continuar() {
         }}
       >
         Este software de gestión psicológica está diseñado para profesionales de la psicología de la universidad,
-        facilitando el almacenamiento, organización y seguimiento de la información clínica y emocional de pacientes
-        internos, incluyendo docentes y trabajadores. Permite registrar perfiles, gestionar historiales y personalizar
+        facilitando el almacenamiento, organización y seguimiento de la información clínica y emocional de las personas
+        internas, incluyendo docentes y trabajadores. Permite registrar perfiles, gestionar historiales y personalizar
         evaluaciones con seguridad y flexibilidad.
       </p>
 
@@ -102,7 +102,7 @@ export default function Continuar() {
         >
           <FaUserPlus style={iconStyle} />
           <h2 style={{ fontWeight: '800', fontSize: '1.6rem' }}>Añadir nuevo usuario</h2>
-          <p>Registra nuevos pacientes con sus perfiles y tipologías psicológicas específicas.</p>
+          <p>Registra nuevos usuarios con sus perfiles y tipologías psicológicas específicas.</p>
         </div>
 
         {/* Tarjeta: Historial */}
@@ -114,7 +114,7 @@ export default function Continuar() {
         >
           <FaHistory style={iconStyle} />
           <h2 style={{ fontWeight: '800', fontSize: '1.6rem' }}>Ver historial de usuarios</h2>
-          <p>Consulta y gestiona los historiales clínicos y emocionales de los pacientes registrados.</p>
+          <p>Consulta y gestiona los historiales clínicos y emocionales de los usuarios registrados.</p>
         </div>
 
         {/* Tarjeta: Evaluaciones */}
@@ -138,7 +138,7 @@ export default function Continuar() {
 >
   <FaClipboardCheck style={iconStyle} />
   <h2 style={{ fontWeight: '800', fontSize: '1.6rem' }}>Realizar Cuestionarios</h2>
-  <p>Registra datos del paciente y responde cuestionarios previamente creados.</p>
+  <p>Registra datos del usuario y responde cuestionarios previamente creados.</p>
 </div>
 
 
@@ -151,7 +151,7 @@ export default function Continuar() {
         >
           <FaCalendarAlt style={iconStyle} />
           <h2 style={{ fontWeight: '800', fontSize: '1.6rem' }}>Agenda y Gestión de Citas</h2>
-          <p>Organiza tus citas, recordatorios y sesiones con pacientes de forma visual y eficaz.</p>
+          <p>Organiza tus citas, recordatorios y sesiones con usuarios de forma visual y eficaz.</p>
         </div>
 
         {/* Tarjeta: Estadísticas */}

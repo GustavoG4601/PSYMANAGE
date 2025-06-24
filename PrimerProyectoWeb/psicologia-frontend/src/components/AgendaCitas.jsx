@@ -100,7 +100,9 @@ export default function AgendaCitas() {
     }
 
     const fechaCompleta = new Date(`${fecha}T${hora}`).toISOString();
-    const payload = { paciente_id, fecha: fechaCompleta, motivo };
+
+    // ✅ Agregado el campo `hora` explícitamente al payload
+    const payload = { paciente_id, fecha: fechaCompleta, hora, motivo };
 
     try {
       const url = editId

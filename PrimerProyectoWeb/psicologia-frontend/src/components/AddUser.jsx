@@ -88,7 +88,7 @@ export default function AddUser() {
 
       const data = await response.json();
 
-      alert(data.message || 'Paciente guardado correctamente');
+      alert(data.message || 'Usuario guardado correctamente');
 
       // Guardar en localStorage para historial
       const usuarioActual = JSON.parse(localStorage.getItem('usuarioActual'));
@@ -119,7 +119,7 @@ export default function AddUser() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Añadir nuevo paciente</h1>
+      <h1 style={styles.title}>Añadir nuevo usuario</h1>
 
       {error && <div style={styles.errorBox}>{error}</div>}
 
@@ -209,7 +209,7 @@ export default function AddUser() {
             cursor: loading ? 'not-allowed' : 'pointer',
           }}
         >
-          {loading ? 'Guardando...' : 'Guardar paciente'}
+          {loading ? 'Guardando...' : 'Guardar usuario'}
         </button>
       </form>
     </div>
